@@ -16,3 +16,4 @@ jobs:
       uses: Azure/webapps-deploy@v2
       with:
         app-name: test-runfrompkg
+        package: ./java-webapp  
